@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial", "sans-serif";
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    background-color: dodgerblue;
+    padding: 30px;
+    padding-left: 20px;
+    border-top: 1px solid white;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media all and (min-width: 550px) {
+    ul {
+        background-color:dodgerblue;
+    }
+
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+h3 {
+    color: rgb(220, 106, 94);
+    font-weight: 600;
+}
+
+section, footer {
+    padding: 20px;
+}
+
+section.hoofd {
+    width: 1%;
+    margin-left: 75%;
+}
+section.text {
+    width: 33%;
+    float: right;
+    margin-right: 12%;
+    margin-top: -1%;
+
+}
+section.concert {
+    width: 50%;
+    float: left;
+    margin-left: 4%;
+
+}
+
+section.pics {
+    width: 66%;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    margin-top: 50%;
+
+}
+section.meer {
+    margin-top: -8%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+@media all and (min-width: 1200px) {
+    div#wrapper {
+        width: 1519.4px;
+        background-color: white;
+
+
+
+    }
+}
+
+footer {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
+}
+section.end {
+    margin-left: 35%;
+}
